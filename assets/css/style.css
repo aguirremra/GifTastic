@@ -4,3 +4,7 @@
     input {
       margin: 10px;
     }
+
+#hero-images{
+	float: left;
+}
