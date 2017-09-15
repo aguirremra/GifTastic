@@ -7,19 +7,23 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-  <div id="heroButtons">
-    
+<body>  
+    <div class="col-md-12 text-center"><h1>Super Hero Giftastic</h1></div>
+    <div id="heroButtons" class="row col-md-12 text-center">    
+    </div>
+    <div class="container">
+    <div class="row col-md-12">
+    <div id="hero-gifs" class="row col-md-8">    
+    </div>
+    <div class="row col-md-4">
+      <form id="hero-form" class="form-group">
+        <label for="hero-input" id="hero-label">Add a Super Hero</label>
+        <input type="text" id="hero-input" class="form-control">
+        <input id="add-hero" type="submit" value="Submit">
+      </form>
+    </div>
+    </div>
   </div>
-  <form id="hero-form">
-    <label for="hero-input">Add a Super Hero</label>
-    <input type="text" id="hero-input">
-    <input id="add-hero" type="submit" value="Add Hero">
-  </form>
-  <div id="hero-gifs">
-    
-  </div>
-
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>

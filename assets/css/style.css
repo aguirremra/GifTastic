@@ -1,10 +1,38 @@
-    button,
-    div,
-    form,
-    input {
-      margin: 10px;
-    }
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+h1{
+	margin-top: 5px;
+	color: #ff0000;
+	font-weight: bold;
+}
+p{
+	font-size: 16px;
+	color: #ff0000;
+}
+.hero-images{
+	float: left;	
+}
+#hero-label{
+	color: #ff0000;
+}
+img{
+	border: 1px ridge #0000ff;
+}
+body{
+	background-image: url("../images/background.jpg");
+}
+button, #add-hero{
+	font-size: 14px;
+	background-color: #ffff00;
+	border-radius: 5px;
+	border-color: #ffff00;
+	color: #0000ff;
+}
 
-#hero-images{
-	float: left;
+#hero-form{
+	margin-left: 25px;
 }
